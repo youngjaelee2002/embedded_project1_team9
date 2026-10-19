@@ -1,0 +1,12 @@
+UNO 3 scanner tracking/cluster tuning
+
+- Target removed after 2 missed covered legs (previously 4).
+- Minimum cluster samples: normal/tracking 3, fast sweep 2.
+- Range continuity threshold 60 mm (previously 100).
+- Correct USB OBJECT stale flag (bit 0x04).
+- Maintained SPI wire protocol and 600 x 600 mm coordinate system.
+- Kept association radius at 180 mm and angular gap at 18 degrees.
+
+Open UNO3_SPI_Scanner_TrackingFix.ino in Arduino IDE from this folder.
+Requires VL53L0X Arduino library; select Arduino Uno board.
+Not hardware-verified.
